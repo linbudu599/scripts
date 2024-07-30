@@ -1,0 +1,49 @@
+{
+  "name": "linbudu-scripts",
+  "version": "1.0.3",
+  "description": "Scripts for linbudu",
+  "bin": {
+    "sync-commit": "./sync-commit.mjs",
+    "revoke-commit": "./revoke-commit.mjs",
+    "docs-commit": "./docs-commit.mjs",
+    "init-commit": "./init-commit.mjs",
+    "fix-build-commit": "./fix-build-commit.mjs",
+    "cr-commit": "./cr-commit.mjs",
+    "merge-commit": "./merge-commit.mjs",
+    "version-commit": "./version-commit.mjs",
+    "test-commit": "./test-commit.mjs",
+    "format-commit": "./format-commit.mjs",
+    "check-ghost": "./workspace-check-ghost-deps.mjs",
+    "check-unsed": "./workspace-check-unused-deps.mjs",
+    "colors": "./colors.mjs",
+    "open-url": "./open-url.mjs",
+    "open-npm": "./open-url.mjs",
+    "search": "./search.mjs",
+    "check-bin": "./check-bin.mjs",
+    "install-with-typing": "./install-with-typing.mjs"
+  },
+  "author": "linbudu599",
+  "license": "MIT",
+  "dependencies": {
+    "consola": "^3.2.3",
+    "open": "^10.1.0",
+    "pacote": "^18.0.6",
+    "ts-morph": "^23.0.0",
+    "validate-npm-package-name": "^5.0.1",
+    "which-pm": "^3.0.0",
+    "which-pm-runs": "^1.1.0",
+    "zx": "^8.1.4"
+  },
+  "devDependencies": {
+    "@types/pacote": "^11.1.8",
+    "@types/validate-npm-package-name": "^4.0.2",
+    "publint": "^0.2.9",
+    "type-fest": "^4.23.0"
+  },
+  "allowedUnusedDeps": [
+    "find-up"
+  ],
+  "allowedGhostDeps": [
+    "zx"
+  ]
+}
